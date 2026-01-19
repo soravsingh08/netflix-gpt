@@ -1,9 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: netflix ;
+  src: url("https://occ.a.nflxso.net/genc/hawkins/5.11.1/font/netflix-sans-core-variable-full.woff2");
+}
+
 * {
 
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: netflix;
 }
 
 html,
@@ -12,4 +17,5 @@ body {
   width: 100%;
   background-color: rgb(15, 15, 15);
   color : white;
+
 }
