@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Login from "./components/Login";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold">This is out neflix gpt</h1>
+      <Body />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
